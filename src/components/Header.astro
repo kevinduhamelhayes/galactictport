@@ -1,10 +1,33 @@
-<header class="flex w-[70%] p-10 justify-between">
-  <img src="https://media.licdn.com/dms/image/D4D03AQEL_XRbbjtYfg/profile-displayphoto-shrink_200_200/0/1696117331991?e=1709769600&v=beta&t=ryfCYAgpaI7vgloodNtJrgKn45akEAYEcTs6vF65tYE" alt="kevin duhamel photo" class="h-20 rounded-full"/>
-  <nav class="gap-10 flex opacity-80">
-    <a href="/">home</a>
-    <a href="/about">about</a>
-    <a href="/projects">projects</a>
-    <a href="/contact">contact</a>
+<header  class={`
+  flex justify-center items-center
+  mx-auto
+  py-5
+  sticky top-0
+  w-full xl:w-[1120px]
+  z-10
+`}>
+<nav class={`
+  border border-black rounded-full
+  px-3 py-1
+  flex flex-row items-center
+  bg-neutral-200 dark:bg-black/50
+  backdrop-blur-2xl
+`}>
+  <img src="https://media.licdn.com/dms/image/D4D03AQEL_XRbbjtYfg/profile-displayphoto-shrink_200_200/0/1696117331991?e=1709769600&v=beta&t=ryfCYAgpaI7vgloodNtJrgKn45akEAYEcTs6vF65tYE" alt="kevin duhamel photo" class="h-16 mr-10 rounded-full"/>
+  
+  <a
+  class="hover:bg-white/10 rounded-full px-3 transition"
+  href="#experiencia">Experiencia</a
+>
+<a class="hover:bg-white/10 rounded-full px-3 transition" href="#proyectos"
+  >Proyectos</a
+>
+<a class="hover:bg-white/10 rounded-full px-3 transition" href="#sobre-mi"
+  >Sobre mí</a
+>
+<a class="hover:bg-white/10 rounded-full px-3 transition" href="#contacto"
+  >Contacto</a
+>
 
   </nav>
 </header>
